@@ -1,37 +1,49 @@
-LineageOS
+LightingFastRom
 ===========
+LightingFastRom is based on LineageOS minus the bloat & lag. My overall goal is to optimize Android to run as smooth as Apple iOS as I can for older devices & simplify thing where I can
 
 Getting started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/LightingFastRom, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LightingFastRom trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+repo init -u git://github.com/LightingFastRom/android.git -b lineage-16.0
 ```
 Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+Submitting your ideas or cool application for review
+----------------------------------------------
+Rules adding for new feature to exciting repo
+1. Build rom for your device.
+2. Explore rom and see what can be improvised or what missing.
+3. Look at your #1 favorite rom.
+4. See if your #1 favorite rom has something useful or make something cool & useful that solve a common problem.
+5. Fork the related to your new or ideas improvise implement idea for the fork repo and test on your device till your happy with how it operate.
+6. Make test build for Samsung Galaxy Tab 4 10.1 or Samsung Galaxy Tab 4 8.0 & post on here [Click Here](https://forum.xda-developers.com/tab-4/development/samsung-galaxy-tab-4-light-project-t3877643) with explanation on what it does or what improve upon along with screenshot for review & if I like & find useful i'll add you to the ORG as sole maintainer of the idea.
 
+Rules for your cool & useful application
+1. Build rom for your device.
+2. Explore rom and see mess with the defaults apps
+3. Look at your apps and think is it more useful then the stock application it replaces or is it useful on its own 
+5. Convert your app from android studio to work with LightingFastRom instead.
+6. Make test build for Samsung Galaxy Tab 4 10.1 only if application requires root if not build as APK file and post on here [Click Here](https://forum.xda-developers.com/tab-4/development/samsung-galaxy-tab-4-light-project-t3877643) with explanation on what it does or what improvise upon along with screenshot for review an if I like & find useful i'll add you to the ORG as sole maintainer of the app.
+
+Making suggesting
+----------------------------------------------
+1. Explain way your suggestion useful & what it solve.
+2. Post examples of your suggestion here [Click Here](https://forum.xda-developers.com/tab-4/development/samsung-galaxy-tab-4-light-project-t3877643) with photo for me to review or like to where you gotta it from.
+
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
 Submitting patches
 ------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+Patches are always welcome! Please submit your patches via LineageOS Gerrit for baulk of OS or though here [Click Here](https://forum.xda-developers.com/tab-4/development/samsung-galaxy-tab-4-light-project-t3877643) for review!
 
 Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
 
 To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
