@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="GitHubMods"
+           fetch="https://github.com" 
+			sync-c="true"
+			sync-j="4"
+			clone-depth="1" />
+	<remote  name="LightningFastRom"
+			fetch="https://github.com" 
+			sync-c="true"
+			sync-j="4"
+			clone-depth="1" />
+	<remote  name="MoKee"
+			fetch="https://github.com" 
+			sync-c="true"
+			sync-j="4"
+			clone-depth="1" />
+	<remote  name="aospi"
+           fetch="https://android.googlesource.com" />
+
+	<!-- Apps I Never Use Or End Up Replacing Anyways -->
+	<remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
+	<remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
+	<remove-project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
+	<!-- <remove-project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
+	<remove-project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />
+	<remove-project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
+	<remove-project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
+	<remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
+	<remove-project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
+	<remove-project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" />
+  	<remove-project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" /> 
+	<remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" /> 
+	<remove-project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" /> -->
+	<!-- <remove-project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" /> -->
+	<!-- <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
+	<remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
+	<remove-project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
+	<remove-project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+	<remove-project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
+	<remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" /> -->
+	<!-- <remove-project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
+	<remove-project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" /> -->
+	
+	<!-- Custom prebuilt Framwworks for using Android Studio app in your rom as source & not as a prebuilt apk.-->
+	<project path="frameworks/gms" name="LightningFastRom/android_framework_prebuilt_gms" revision="master" />
+	
+	<!-- Replacing LineageOS Framework/base In Order Theme The Android Properly-->
+	<remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+	<project path="frameworks/base" name="LightningFastRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
+	
+	<!-- Sawapping LineageDK For My Version With Tweek Settings --> 
+	<remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+	<project path="lineage-sdk" name="LightningFastRom/android_lineage-sdk" remote="LightningFastRom" /> 
+	
+	<!-- Sawapping Eleven For My Version With Out the Ulgy Visualizer --> 
+	<remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+	<project path="packages/apps/Eleven" name="LightningFastRom/android_packages_apps_Eleven" remote="LightningFastRom" />
+	<!-- <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="LightningFastRom" revision="android-7.1"/>
+	<project path="packages/apps/SnapdragonMusic" name="pixeldustproject/android_packages_apps_SnapdragonMusic" remote="LightningFastRom" revision="n"/>
+	<project path="packages/apps/Music/" name="platform/packages/apps/Music/" remote="aosp" revision="nougat-mr2.3-release"/> -->
+	
+	<!-- Sawapping Snap For My Version With New Fetures --> 
+	<!-- <remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
+	<project path="packages/apps/Snap" name="LightningFastRom/android_packages_apps_Snap" remote="LightningFastRom" /> -->
+	
+	<!-- Sawapping Recorder For My Version With New Red & Blur Theme --> 
+	<remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
+	<project path="packages/apps/Recorder" name="LightningFastRom/android_packages_apps_Recorder" remote="LightningFastRom" />
+	
+	<!-- <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="LightningFastRom" revision="nougat-mr2"/> -->
+
+	<!-- Rebrended LineageOS CMParts -->
+	<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+	<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />
+	
+	<!-- Rebrended LineageOS Setting -->
+    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />
+	
+	<!-- Rebrended LineageOS SetupWizard -->
+    <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />
+	
+	<!-- Disabling stock Email& adding Gmail instead -->
+	<!-- <remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
+	<project path="packages/apps/Email" name="LightningFastRom/android_packages_apps_Email" groups="pdk-fs" remote="LightningFastRom" /> -->
+
+	<!-- Swapping Trebuchet for pixelated (Now based on PixelDustLauncher) -->
+	<!-- TODO: Need to be ported to Oreo & Pi -->
+	<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+	<!-- <project path="packages/apps/Pixelated" name="LightningFastRom/android_packages_apps_Pixelated" remote="LightningFastRom" /> -->
+	<project path="packages/apps/Launcher3" name="ArrowOS/android_packages_apps_Launcher3" remote="LightningFastRom" />
+	
+
+	<!-- Adding Lightingweather --> 
+	<remove-project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+	<remove-project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
+	<!-- <project path="packages/apps/Lightingweather" name="LightningFastRom/android_packages_apps_lightingweather" remote="github" /> -->
+	
+	<!-- Wallpaper & Screensaver --> 
+	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
+    <project path="packages/apps/WallpaperPicker" name="LightningFastRom/android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="LightningFastRom" />
+		
+	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
+	<project path="vendor/Gapps-Preloader" name="LightningFastRom/Open-Base-Gapps-Preloader" revision="master" remote="LightningFastRom" />
+	
+	
+	
+	<!-- Adding My Own For Branding Perpous But Mostely Replaceing The Default Ringtones/Sounds With My Own Ringtones AKA(Qualty Over Quantity) -->
+	<!-- <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="LightningFastRom/android_vendor_lineage" remote="LightningFastRom" /> -->
+</manifest>
