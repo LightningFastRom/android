@@ -56,8 +56,8 @@
 <!--	<project path="packages/apps/FMRadio" name="LightningFastRom/android_packages_apps_FMRadio" remote="LightningFastRom" />-->
 
 	<!-- Sawapping Eleven For My Version With Out the Ulgy Visualizer -->
-<!--	<remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />-->
-<!--	<project path="packages/apps/Eleven" name="LightningFastRom/android_packages_apps_Eleven" remote="LightningFastRom" />-->
+	<remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+	<project path="packages/apps/Eleven" name="LightningFastRom/android_packages_apps_Eleven" remote="LightningFastRom" />
 
 	<!-- Sawapping DocumentsUI For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 <!--	<remove-project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />-->
