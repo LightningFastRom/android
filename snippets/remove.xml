@@ -104,11 +104,11 @@
 	<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+        <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
 	<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS SetupWizard -->
-    <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+        <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
 	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS LatinIME Nightmode mode LatinIME-->
@@ -132,7 +132,7 @@
 	<!-- Wallpaper & Screensaver --> 
 	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
 	<remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
-    <project path="packages/apps/Backgrounds" name="LightningFastRom/android_packages_apps_Backgrounds" remote="LightningFastRom" />
+        <project path="packages/apps/Backgrounds" name="LightningFastRom/android_packages_apps_Backgrounds" remote="LightningFastRom" />
 	
 	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
 	<project path="vendor/Gapps-Preloader" name="LightningFastRom/Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>
