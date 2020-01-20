@@ -96,8 +96,8 @@
 	<!--	<project path="packages/apps/Snap" name="LightningFastRom/android_packages_apps_Snap" remote="LightningFastRom" /> -->
 	
 	<!-- Sawapping Recorder For My Version With New Red & Blur Theme -->
-	<!--	<remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />-->
-	<!--	<project path="packages/apps/Recorder" name="LightningFastRom/android_packages_apps_Recorder" remote="LightningFastRom" />-->
+		<remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
+		<project path="packages/apps/Recorder" name="LightningFastRom/android_packages_apps_Recorder" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS LineageParts -->
 	<!--	<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
