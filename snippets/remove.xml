@@ -92,8 +92,8 @@
 	<!--	<project path="packages/apps/Gallery2" name="LightningFastRom/android_packages_apps_Gallery2" remote="LightningFastRom" groups="pdk-fs" />-->
 	
 	<!-- Sawapping Snap For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!--	<remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
-	<!--	<project path="packages/apps/Snap" name="LightningFastRom/android_packages_apps_Snap" remote="LightningFastRom" /> -->
+		<remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
+		<project path="packages/apps/Snap" name="LightningFastRom/android_packages_apps_Snap" remote="LightningFastRom" />
 	
 	<!-- Sawapping Recorder For My Version With New Red & Blur Theme -->
 		<remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
