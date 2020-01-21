@@ -100,8 +100,8 @@
 		<project path="packages/apps/Recorder" name="LightningFastRom/android_packages_apps_Recorder" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS LineageParts -->
-	<!--	<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
-	<!--	<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />-->
+		<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+		<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 	<!--	<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />-->
