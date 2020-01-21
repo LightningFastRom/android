@@ -104,8 +104,8 @@
 		<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!--	<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />-->
-	<!--	<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />-->
+		<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+		<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS SetupWizard -->
 	<!--	<remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
