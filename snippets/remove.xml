@@ -60,8 +60,8 @@
 	<project path="packages/apps/Eleven" name="LightningFastRom/android_packages_apps_Eleven" remote="LightningFastRom" />
 	
 	<!-- Sawapping DocumentsUI For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!--	<remove-project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />-->
-	<!--	<project path="packages/apps/DocumentsUI" name="LightningFastRom/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />-->
+		<remove-project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+		<project path="packages/apps/DocumentsUI" name="LightningFastRom/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
 	
 	<!-- Sawapping Messaging For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 	<!-- <remove-project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
