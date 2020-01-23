@@ -88,8 +88,8 @@
 	    <project path="packages/apps/ExactCalculator" name="LightningFastRom/android_packages_apps_ExactCalculator" remote="LightningFastRom" groups="pdk-fs" />
 	
 	<!-- Sawapping Gallery2 For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!--	<remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" /> -->
-	<!--	<project path="packages/apps/Gallery2" name="LightningFastRom/android_packages_apps_Gallery2" remote="LightningFastRom" groups="pdk-fs" />-->
+		<remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
+		<project path="packages/apps/Gallery2" name="LightningFastRom/android_packages_apps_Gallery2" remote="LightningFastRom" groups="pdk-fs" />
 	
 	<!-- Sawapping Snap For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 		<remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
