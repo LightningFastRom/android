@@ -48,8 +48,8 @@
 		<project path="frameworks/base" name="LightningFastRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 	
 	<!-- Sawapping LineageDK For My Version With Tweek Settings -->
-	<!--	<remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
-	<!--	<project path="lineage-sdk" name="LightningFastRom/android_lineage-sdk" remote="LightningFastRom" /> -->
+		<remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+		<project path="lineage-sdk" name="LightningFastRom/android_lineage-sdk" remote="LightningFastRom" />
 	
 	<!-- Sawapping FMRadio For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 	<!--	<remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
