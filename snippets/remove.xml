@@ -68,9 +68,9 @@
 	<project path="packages/apps/Messaging" name="LightningFastRom/android_packages_apps_Messaging" remote="LightningFastRom" groups="pdk-fs" /> -->
 	
 	<!-- Sawapping Dialer For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!--	<remove-project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" /> -->
-	<!--	<project path="packages/apps/Dialer" name="LightningFastRom/android_packages_apps_Dialer" remote="LightningFastRom" groups="pdk-fs" />-->
-	
+		<remove-project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" /> 
+		<project path="packages/apps/Dialer" name="LightningFastRom/android_packages_apps_Dialer" remote="LightningFastRom" groups="pdk-fs" />
+
 	<!-- Sawapping Contacts For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 	<!--	<remove-project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" /> -->
 	<!--	<project path="packages/apps/Contacts" name="LightningFastRom/android_packages_apps_Contacts" remote="LightningFastRom" groups="pdk-fs" />-->
