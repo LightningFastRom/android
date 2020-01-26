@@ -134,6 +134,6 @@
 	<!--	<project path="vendor/Gapps-Preloader" name="LightningFastRom/Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>-->
 	
 	<!-- Adding My Own For Branding Perpous But Mostely Replaceing The Default Ringtones/Sounds With My Own Ringtones AKA(Qualty Over Quantity) -->
-	<!--	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
-	<!--		<project path="vendor/lineage" name="LightningFastRom/android_vendor_lineage" remote="LightningFastRom" />-->
+		<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+		<project path="vendor/lineage" name="LightningFastRom/android_vendor_lineage" remote="LightningFastRom" />
 </manifest>
