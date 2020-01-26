@@ -38,6 +38,9 @@
 	
 	<!-- Removing hudson -->
 	<remove-project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="master" />
+
+	<!-- Removing updater -->
+	<remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 	
 	<!-- Custom prebuilt Framwworks for using Android Studio app in your rom as source & not as a prebuilt apk. -->
 	<!--	<project path="frameworks/gms" name="LightningFastRom/android_framework_prebuilt_gms" remote="LightningFastRom" revision="master" />-->
