@@ -108,8 +108,8 @@
 		<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS SetupWizard -->
-	<!--	<remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
-	<!--	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />-->
+	<remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />
 	
 	<!-- Disabling stock Email & adding Gmail instead -->
 	<!-- <remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
