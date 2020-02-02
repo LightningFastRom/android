@@ -115,8 +115,8 @@
 	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />
 	
 	<!-- Disabling stock Email & adding Gmail instead -->
-	<!-- <remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
-	<project path="packages/apps/Email" name="LightningFastRom/android_packages_apps_Email" groups="pdk-fs" remote="LightningFastRom" /> -->
+	<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
+	<project path="packages/apps/Email" name="LightningFastRom/android_packages_apps_Email" groups="pdk-fs" remote="LightningFastRom" />
 	
 	<!-- Swapping Trebuchet for pixelated (Now based on PixelDustLauncher) -->
 	<!-- TODO: Need to be ported to Oreo & Pi -->
