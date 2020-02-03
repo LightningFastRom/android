@@ -47,6 +47,10 @@
 	<remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/base" name="LightningFastRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 
+	<!-- Replacing LineageOS PackageInstaller/PermissionController with my fork Mode Dark theme by Nevidimka655-->
+	<remove-project path="packages/apps/PermissionController" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+	<project path="packages/apps/PermissionController" name="LightningFastRom/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
+
 	<!-- Sawapping LineageDK For My Version With Tweek Settings --> 
 	<remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
 	<project path="lineage-sdk" name="LightningFastRom/android_lineage-sdk" remote="LightningFastRom" /> 
@@ -104,11 +108,11 @@
 	<project path="packages/apps/LineageParts" name="LightningFastRom/android_packages_apps_LineageParts" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-        <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
 	<project path="packages/apps/Settings" name="LightningFastRom/android_packages_apps_Settings" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS SetupWizard -->
-        <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+    <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
 	<project path="packages/apps/SetupWizard" name="LightningFastRom/android_packages_apps_SetupWizard" remote="LightningFastRom" />
 	
 	<!-- Rebrended LineageOS LatinIME Nightmode mode LatinIME-->
