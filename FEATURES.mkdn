@@ -1,13 +1,14 @@
 LightningFastRom Features
 =========================
+This List apply to Pie but with a grane of salt as every listed here may not be precent Pie.
 
 What's Been Tweeks
 -------------------------
-1.
+1. Everything.
 
 What's Been Added
 -------------------------
-1. Darkmode to all the apps.
+1. Darkmode to all the apps thenks to SuperiorOS.
 	1.1. Mssagings.
 	1.2. Gallery2.
 	1.3. Contatcts.
@@ -16,19 +17,19 @@ What's Been Added
 	1.6. Claulator (Always Darkmode).
 	1.7. DeskClok (Always Darkmode).
 
-2. Pixel to all the apps
+2. Pixel style to all the apps thanks allstargaurav/The-Adaptive-Project
 	2.1. Mssagings.
 	2.2. Gallery2.
 	2.3. Contatcts.
 	2.4. Dialer.
-	2.5. Cleander still being redone?
-	2.6. Claulator (Always Darkmode).
-	2.7. DeskClok (Always Darkmode).
+	2.5. Cleander IconOnly?
+	2.6. Claulator.
+	2.7. DeskClok.
 
 What's Been Removed
 -------------------------
 1. LineageOS Statistics there on to us.
-2. LineageOS Networks Traffic not useful apps & widget are better.
+2. LineageOS Networks Traffic not as useful apps & widget are better.
 3. Volume button control media playback.
 4. Audio Visularon on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
 5. Lineage Weather not useful apps & widget are better.
