@@ -134,8 +134,8 @@
 	
 	<!-- Wallpaper & Screensaver -->
 	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
-	<!-- <remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" /> -->
-	<!--	 <project path="packages/apps/Backgrounds" name="LightningFastRom/android_packages_apps_Backgrounds" remote="LightningFastRom" /> -->
+	<remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
+	<project path="packages/apps/Backgrounds" name="LightningFastRom/android_packages_apps_Backgrounds" remote="LightningFastRom" />
 	
 	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
 	<!-- <project path="vendor/Gapps-Preloader" name="LightningFastRom/Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>-->
