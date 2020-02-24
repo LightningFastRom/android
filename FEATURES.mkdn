@@ -1,43 +1,50 @@
 LightningFastRom Features
 =========================
-This List apply to Pie but with a grane of salt as every listed here may not be precent Pie.
+This List also apply to Pie but with a grain of salt as every listed here may not be present or may be incomplete ﻿in Pie.
 
 What's Been Tweeks
 -------------------------
-1. Everything.
+1. Everything so far.
+
+What's Need to Tweeks
+-------------------------
+1. Everything else.
+2. Cleander still being redone?
 
 What's Been Added
 -------------------------
-1. Darkmode to all the apps thenks to SuperiorOS.
-	1.1. Mssagings.
-	1.2. Gallery2.
-	1.3. Contatcts.
-	1.4. Dialer.
-	1.5. Cleander still being redone?
-	1.6. Claulator (Always Darkmode).
-	1.7. DeskClok (Always Darkmode).
+1. Darkmode to all the apps thanks to SuperiorOS.
+   1.1. Mssagings.
+   1.2. Gallery2.
+   1.3. Contacts.
+   1.4. Dialer.
+   1.5. Cleander still being redone?
+   1.6. Calculator (Always Darkmode).
+   1.7. DeskClock (Always Darkmode).
 
 2. Pixel style to all the apps thanks allstargaurav/The-Adaptive-Project
-	2.1. Mssagings.
-	2.2. Gallery2.
-	2.3. Contatcts.
-	2.4. Dialer.
-	2.5. Cleander IconOnly?
-	2.6. Claulator.
-	2.7. DeskClok.
+   2.1. Mssagings.
+   2.2. Gallery2.
+   2.3. Contacts.
+   2.4. Dialer.
+   2.5. Calendar IconOnly?
+   2.6. Calculator.
+   2.7. DeskClock.
+
+3. Pixel look add to Setting search bar
 
 What's Been Removed
 -------------------------
-1. LineageOS Statistics there on to us.
-2. LineageOS Networks Traffic not as useful apps & widget are better.
+1. LineageOS Statistics there onto us.
+2. LineageOS Networks Traffic not very useful at all, apps & widget are better.
 3. Volume button control media playback.
 4. Audio Visularon on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
 5. Lineage Weather not useful apps & widget are better.
 
 What's Been Redesign
 -------------------------
-1. Battery Percentage (Simple toggle it's either On or Off).
+1. Battery Percentage (Simple toggle it's either On or Off like iOS).
 
-What's Been Shuffeled
+What's Been Shuffled
 -------------------------
 1. Some of the Setting in Setting & LineageParts
