@@ -1,7 +1,3 @@
-LightningFastRom Features
-=========================
-This List also apply to Pie but with a grain of salt as every listed here may not be present or may be incomplete ﻿in Pie.
-
 What's Been Tweeks
 -------------------------
 1. Everything so far.
@@ -14,24 +10,23 @@ What's Need to Tweeks
 What's Been Added
 -------------------------
  1. Darkmode to all the apps thanks to SuperiorOS. 
-	 - Messagings.
-	 - Gallery2.
-	 - Contacts.
-	 - Dialer.
-	 - Cleander still being redone?
-	 - Calculator (Always Darkmode).
-	 - DeskClock (Always Darkmode).
+       - Messagings.
+       - Gallery2.
+       - Contacts.
+       - Dialer.
+       - Cleander still being redone?
+       - Calculator (Always Darkmode).
+       - DeskClock (Always Darkmode).
 
-	 
-
- 3. Pixel style to all the apps thanks allstargaurav/The-Adaptive-Project
-	 - Messagings.
-	 - Gallery2.
-	 - Contacts.
-	 - Dialer.
-	 - Calendar IconOnly?
-	 - Calculator.
-	 - DeskClock.
+ 3. Pixel style to all the apps thanks https://github.com/allstargaurav/The-Adaptive-Project & https://github.com/moctodot/adaptive-icons
+       - Messagings.
+       - Gallery2.
+       - Contacts.
+       - Dialer.
+       - Calendar IconOnly?
+       - Calculator.
+       - DeskClock.
+       - Setting (Icon background change to what accent color you pick).
 
  4. Pixel look add to Setting search bar
 
