@@ -131,8 +131,8 @@
 	
 	<!-- Swapping Trebuchet for pixelated (Now based on PixelDustLauncher) -->
 	<!-- TODO: Need to be ported to Oreo & Pi -->
-	<!-- <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-	<project path="packages/apps/Trebuchet" name="LightningFastRom/android_packages_apps_Trebuchet" remote="LightningFastRom" /> -->
+	<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+	<project path="packages/apps/Trebuchet" name="LightningFastRom/android_packages_apps_Trebuchet" remote="LightningFastRom" />
 	
 	<!-- Adding Lightingweather -->
 	<!-- <remove-project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
