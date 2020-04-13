@@ -1,15 +1,15 @@
-What's Been Tweeks
+What's Been Tweeks?
 -------------------------
 1. Everything so far.
 
-What's Need to Tweeks
+What's Need to Tweeks>
 -------------------------
 1. Everything else.
 2. Cleander still being redone?
 
-What's Been Added
+What's Been Added?
 -------------------------
- 1. Darkmode to all the apps thanks to SuperiorOS. 
+ 1. Darkmode to all the apps thanks to SuperiorOS.
        - Messagings.
        - Gallery2.
        - Contacts.
@@ -28,20 +28,41 @@ What's Been Added
        - DeskClock.
        - Setting (Icon background change to what accent color you pick).
 
- 4. Pixel look add to Setting search bar
 
-What's Been Removed
+ 4. Pixel look add to Setting search bar.
+
+ 5. Native Screen recording, But it does not work yet.
+
+ 5. Auto darkmode.
+ 
+ 6. Samsung style lockscreen clock theme
+ 
+ 6. trebuchet know show the weather be default on the first page instead where the QSB normaly appers I can live with Thats.
+ 
+ 7. bromite-webview with adblock support.
+
+
+What's Been Removed?
 -------------------------
 1. LineageOS Statistics there onto us.
 2. LineageOS Networks Traffic not very useful at all, apps & widget are better.
 3. Volume button control media playback.
 4. Audio Visularon on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
 5. Lineage Weather not useful apps & widget are better.
+6. Lockscreen Media Art (Yuck 🤮🤮🤮🤮).
 
-What's Been Redesign
+What's Been Redesign?
 -------------------------
 1. Battery Percentage (Simple toggle like iOS it's either On or Off ).
+2. SQ Panel with blur background to reduse distractions and a bunsh of thening form Revengos.
+2. UI Switches have been themed to look like OOS(OxygenOS) thanks to InFusionX-OS along with fingurepint animation also all the other animation have cut in half.
 
-What's Been Shuffled
+
+What's Been Shuffled?
 -------------------------
 1. Some of the Setting in Setting & LineageParts
+
+
+Credits?
+-------------------------
+Credits go every single Q rom out there because I've lost track every custom ROM I've cherry pick commit from so far.
