@@ -60,7 +60,7 @@
 	
 	<!-- Replacing LineageOS ThemePicker For my fork with even more icon shapes -->
 	<remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
-	<project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" remote="LightningFastRom"/>
+	<project path="packages/apps/ThemePicker" name="LightningFastRom/android_packages_apps_ThemePicker" groups="pdk-fs" remote="LightningFastRom"/>
 	
 	<!-- Add Lightning overlays with new Aholor, Fonts, Icons & even more icon shapes -->
 	<project path="packages/overlays/Lightning" name="LightningFastRom/android_packages_overlays_Lightning" groups="pdk-fs" remote="LightningFastRom"/> 
