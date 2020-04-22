@@ -42,7 +42,7 @@ What's Been Added?
  7. bromite-webview with adblock support.
 
  8. Settings, Frameworks/Base, Lineageparts, lineage-sdk.
-   - To meny to list
+       - To meny to list
 
 What's Been Removed?
 -------------------------
