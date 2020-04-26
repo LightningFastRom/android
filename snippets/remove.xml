@@ -140,8 +140,8 @@
 	
 	<!-- Adding Lightingweather -->
 	<!-- <remove-project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
-	<remove-project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
-	<project path="packages/apps/Lightingweather" name="LightningFastRom/android_packages_apps_lightingweather" remote="github" /> -->
+	<remove-project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" /> -->
+	<project path="packages/apps/Lightingweather" name="LightningFastRom/android_packages_apps_lightingweather" remote="github" />
 	
 	<!-- Wallpaper & Screensaver -->
 	<!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
