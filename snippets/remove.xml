@@ -89,9 +89,9 @@
 	<remove-project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
 	<project path="packages/apps/Contacts" name="LightningFastRom/android_packages_apps_Contacts" remote="LightningFastRom" groups="pdk-fs" />
 	
-	<!-- Sawapping Calendar For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-	<!-- <remove-project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" />
-	<project path="packages/apps/Calendar" name="LightningFastRom/android_packages_apps_Calendar" remote="LightningFastRom" groups="pdk-fs" /> -->
+	<!-- Sawapping Etar For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
+	<remove-project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
+	<project path="packages/apps/Etar" name="LightningFastRom/android_packages_apps_Etar" remote="LightningFastRom" />
 	
 	<!-- Sawapping DeskClock For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
 	<remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
