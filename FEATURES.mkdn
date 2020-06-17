@@ -35,7 +35,31 @@ What's Been Added?
 
  5. Auto darkmode.
  
- 6. Samsung style lockscreen clock theme
+ 6. Clocks.
+       - add Samsung style lockscreen clock theme
+       - add MNML clocks.
+       - add Sammy highlight clock.
+       - Add Oroño clock.
+       - Add SFUNY clock.
+       - Add Divided Lines Clock.
+       - Add Custom Sneeky Analog Clock.
+       - Add Analog Clock with Numbers.
+       - Add Custom Spidey Analog Clock.
+       - Add Custom Spectrum Analog Clock.
+       - Add Custom dotOS Analog Clock.
+       - Add Custom BinaryClock Clock for techy people.
+ 
+ 7. Other
+       - Lock tuner is back in my Q ROM lock screen shortcut are removable.
+       - More gradient wallpaper have been added.
+       - SystemUI: make QS columns count is configurable like on newer Samsung devices.
+       - Seeker bar is now thicker & so is the brightness slider match.
+       - Materialize Toast notifications.
+       - Re enable slashes on qs tiles.
+       - Use wireless charging animation for wired charging too.
+       - Blur behind powermenu.
+       - Reworked VolumeDialog thenk to AOSUIP for the comsept & PixelPluseUI for bring the comsept to life.
+       - Reworked switches to look flat.
  
  6. trebuchet know show the weather be default on the first page instead where the QSB normaly appers I can live with Thats.
  
@@ -43,6 +67,8 @@ What's Been Added?
 
  8. Settings, Frameworks/Base, Lineageparts, lineage-sdk.
        - To meny to list
+       
+
 
 What's Been Removed?
 -------------------------
