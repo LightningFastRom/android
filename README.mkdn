@@ -13,7 +13,7 @@ repo init --depth 1 -u git://github.com/LightningFastRom/android.git -b lineage-
 ```
 Then to sync up:
 ```
-repo sync -c -d --force-sync -j10
+repo sync -c -d --force-sync -j$(nproc --all)
 ```
 Submitting your ideas or cool application for review
 ----------------------------------------------
