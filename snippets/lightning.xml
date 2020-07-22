@@ -139,5 +139,10 @@
 	<!-- Adding My Own For Branding Perpous But Mostely Replaceing The Default Ringtones/Sounds With My Own Ringtones AKA(Qualty Over Quantity) -->
 	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="android_vendor_lineage" remote="LightningFastRom" />
+	
+	<!-- Custom Recovery (yay!) -->
+	<remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
+	<project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
+	
 </manifest>
 
