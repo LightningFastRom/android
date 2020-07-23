@@ -16,6 +16,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r40" />
 
+  <remote  name="private1"
+           fetch="https://gitlab.com/IAmSalvaMartini"
+           revision="ten" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
@@ -266,6 +270,7 @@
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
   <project path="external/modp_b64" name="platform/external/modp_b64" groups="pdk" remote="aosp" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="private1" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk" remote="aosp" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk" remote="aosp" />
   <project path="external/nanohttpd" name="platform/external/nanohttpd" groups="pdk" remote="aosp" />
