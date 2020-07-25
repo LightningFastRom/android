@@ -4,12 +4,14 @@ LightningFastRom
 Getting started
 ---------------
 
+NOTE: DO NOT SYNC IF YOU'RE NOT A PROJECT MEMBER!
+
 To get started with Android/LightningFastRom, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the LightningFastRom trees, use a command like this:
 ```
-repo init --depth 1 -u git://github.com/LightningFastRom/android.git -b lineage-17.1
+repo init --depth 1 -u git://github.com/LightningFastRom/android.git -b lineage-17.1-wip
 ```
 Then to sync up:
 ```
