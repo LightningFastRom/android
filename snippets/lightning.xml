@@ -3,7 +3,7 @@
     <remote name="LightningFastRom"
             fetch="https://github.com/LightningFastRom" />
 
-    <!-- Removing useless LineageOS stuff -->
+    <!-- LineageOS infra stuff, which is not needed -->
     <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
     <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
     <remove-project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
@@ -16,32 +16,19 @@
     <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
     <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 
-    <!-- Apps I Never Use Or End Up Replacing Anyways -->
+    <!-- Android bloatware -->
     <remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
     <remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
 
-    <!-- <remove-project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
-     <remove-project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
-     <remove-project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />
-     <remove-project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-     <remove-project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
-     <remove-project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
-     <remove-project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
-     <remove-project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
-     <remove-project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
-     <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
-     <remove-project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
-     <remove-project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />  -->
-
-    <!-- Replacing LineageOS Framework/base In Order Theme The Android Properly -->
+    <!-- ROM manifest -->
     <remove-project path="android" name="LineageOS/android" />
     <project path="android" name="android" remote="LightningFastRom" />
 
-    <!-- Replacing LineageOS Framework/base In Order Theme The Android Properly -->
+    <!-- framework/base replacement for LFR -->
     <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
     <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 
-    <!-- Sawapping LineageDK For My Version With Tweek Settings -->
+    <!-- LineageSDK replacement for LFR -->
     <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
     <project path="lineage-sdk" name="android_lineage-sdk" remote="LightningFastRom" />
     
