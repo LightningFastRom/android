@@ -72,8 +72,8 @@
     <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="LightningFastRom" />
 
     <!-- Sawapping DeskClock For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <!--<remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="LightningFastRom" groups="pdk-fs" />-->
+    <remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="LightningFastRom" groups="pdk-fs" />
     
     <!-- Sawapping ExactCalculator For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
