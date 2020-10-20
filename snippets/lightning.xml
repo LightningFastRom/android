@@ -120,8 +120,8 @@
     <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="LightningFastRom" />-->
 	
     <!-- Swapping ineageOS/android_packages_inputmethods_LatinIME With My Repo Since My Fork Control Darkmode Via The System Like iOS & iPadOS-->
-    <!--<remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs"  remote="LightningFastRom" />-->
+    <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs"  remote="LightningFastRom" />
 
     <!-- Adding Lightingweather -->
     <!-- <remove-project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
