@@ -75,7 +75,7 @@ What's Been Removed?
 1. LineageOS Statistics there onto us.
 2. LineageOS Networks Traffic not very useful at all, apps & widget are better.
 3. Volume button control media playback.
-4. Audio Visulization on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
+4. Audio Visualization on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
 5. Lineage Weather not useful apps & widget are better.
 6. Lockscreen Media Art (Yuck 🤮🤮🤮🤮).
 
