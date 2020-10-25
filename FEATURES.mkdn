@@ -66,7 +66,7 @@ What's Been Added?
  7. bromite-webview with adblock support.
 
  8. Settings, Frameworks/Base, Lineageparts, lineage-sdk.
-       - To meny to list
+       - To many to list
        
 
 
@@ -75,7 +75,7 @@ What's Been Removed?
 1. LineageOS Statistics there onto us.
 2. LineageOS Networks Traffic not very useful at all, apps & widget are better.
 3. Volume button control media playback.
-4. Audio Visularon on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
+4. Audio Visulization on LockScreen & in Eleven (Yuck 🤮🤮🤮🤮).
 5. Lineage Weather not useful apps & widget are better.
 6. Lockscreen Media Art (Yuck 🤮🤮🤮🤮).
 
@@ -83,7 +83,7 @@ What's Been Redesign?
 -------------------------
 1. Battery Percentage (Simple toggle like iOS it's either On or Off ).
 2. SQ Panel with blur background to reduse distractions and a bunsh of thening form Revengos.
-2. UI Switches have been themed to look like OOS(OxygenOS) thanks to InFusionX-OS along with fingurepint animation also all the other animation have cut in half.
+2. UI Switches have been themed to look like OOS(OxygenOS) thanks to InFusionX-OS along with fingerprint animation also all the other animation have cut in half.
 
 
 What's Been Shuffled?
@@ -93,4 +93,4 @@ What's Been Shuffled?
 
 Credits?
 -------------------------
-Credits go every single Q rom out there because I've lost track every custom ROM I've cherry pick commit from so far.
+Credits go to every single Q rom out there because I've lost track every custom ROM I've cherry pick commit from so far.
