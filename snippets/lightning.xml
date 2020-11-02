@@ -2,6 +2,9 @@
 <manifest>
     <remote name="LightningFastRom"
             fetch="https://github.com/LightningFastRom" />
+    
+    <remote name="lineagex"
+            fetch="https://github.com//Lineage-X" />
 
     <!-- LineageOS infra stuff, which is not needed -->
     <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
@@ -143,6 +146,8 @@
     <!-- Custom Recovery (yay!) -->
     <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
+
+    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" />
     
 </manifest>
 
