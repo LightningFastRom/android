@@ -14,7 +14,7 @@
     <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
     <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
     <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
-    <!--<remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
+    <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 
     <!-- Android bloatware -->
     <remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
@@ -37,8 +37,8 @@
     <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />-->
 
     <!-- Replacing LineageOS ThemePicker For my fork with even more icon shapes -->
-    <!--<remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
-    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="LightningFastRom"/>-->
+    <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
+    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="LightningFastRom"/>
     
     <!-- Add Lightning overlays with new Aholor, Fonts, Icons & even more icon shapes -->
     <project path="packages/overlays/Lightning" name="android_packages_overlays_Lightning" groups="pdk-fs" remote="LightningFastRom"/>
@@ -56,7 +56,7 @@
     <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 
     <!-- Sawapping Messaging For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
+    <!-- <remove-project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="LightningFastRom" groups="pdk-fs" />-->
 
     <!-- Sawapping Dialer For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
@@ -96,8 +96,8 @@
     <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="LightningFastRom" />
 
     <!-- Rebrended LineageOS LineageParts -->
-    <!--<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
-    <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="LightningFastRom" />-->
+    <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+    <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="LightningFastRom" />
 
     <!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <!--<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
@@ -130,8 +130,8 @@
 
     <!-- Wallpaper & Screensaver -->
     <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
-    <!--<remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
-    <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="LightningFastRom" />-->
+    <remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
+    <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="LightningFastRom" />
 
     <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
     <!-- <project path="vendor/Gapps-Preloader" name="Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>-->
