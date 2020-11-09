@@ -6,6 +6,10 @@
     <remote name="lineagex"
             fetch="https://github.com//Lineage-X" />
 
+	<remote  name="havoc"
+          fetch="https://github.com/Havoc-OS"
+          revision="pie" />
+
     <!-- LineageOS infra stuff, which is not needed -->
     <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
     <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
@@ -147,7 +151,10 @@
     <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
 
+    <!-- Tracking lineagex external_motorola_faceunlock -->
     <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" />
     
+    <!-- Tracking havoc android_vendor_themes -->
+  	<project path="vendor/themes" name="android_vendor_themes" remote="havoc" 
 </manifest>
 
