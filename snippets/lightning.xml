@@ -147,7 +147,7 @@
     <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
 
-    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" />
+    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" revision="ten" />
     
 </manifest>
 
