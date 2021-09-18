@@ -20,6 +20,7 @@
     <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
     <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
     <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+    <remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
     <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 
     <!-- Android bloatware -->
