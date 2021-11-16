@@ -145,17 +145,12 @@
 	<project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 
     <!-- Adding Lightingweather -->
-    <!-- <remove-project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
-    <remove-project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" /> -->
     <project path="packages/apps/Lightingweather" name="android_packages_apps_lightingweather" remote="LightningFastRom" />
 
     <!-- Wallpaper & Screensaver -->
     <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
     <remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
     <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="LightningFastRom" />
-
-    <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
-    <!-- <project path="vendor/Gapps-Preloader" name="Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>-->
     
     <!-- Adding My Own For Branding Perpous But Mostely Replaceing The Default Ringtones/Sounds With My Own Ringtones AKA(Qualty Over Quantity) -->
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
