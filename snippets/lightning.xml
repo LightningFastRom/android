@@ -156,6 +156,9 @@
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="android_vendor_lineage" remote="LightningFastRom" />
 
+    <!-- Adding Vendor Lightning For less headache In Feature Android Versions -->
+	<project path="vendor/lightning" name="android_vendor_lightning" remote="LightningFastRom" />
+
     <!-- Custom Recovery (yay!) -->
     <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
