@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LightningFastRom trees, use a command like this:
 ```
-repo init --depth 1 -u git://github.com/LightningFastRom/android.git -b lineage-17.1
+repo init --depth 1 -u https://github.com/LightningFastRom/android.git -b lineage-17.1
 ```
 Then to sync up:
 ```
