@@ -48,5 +48,3 @@ Patches are always welcome! Please submit your patches via LineageOS Gerrit for 
 Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
 
 To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
