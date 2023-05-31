@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" />
-    <project path="packages/apps/EmergencyInfo" name="LineageOS-Revived/android_packages_apps_EmergencyInfo" remote="github" />
-
     <remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
     <project path="packages/apps/Seedvault" name="LineageOS-Revived/android_packages_apps_Seedvault" remote="github" />
-
 </manifest>
