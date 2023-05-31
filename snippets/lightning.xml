@@ -47,6 +47,9 @@
     <!-- Add Lightning overlays with new Aholor, Fonts, Icons & even more icon shapes -->
     <project path="packages/overlays/Lightning" name="android_packages_overlays_Lightning" groups="pdk-fs" remote="LightningFastRom"/>
 
+    <remove-project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" />
+    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="LightningFastRom" />
+
     <!-- Replace FMRadio For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <!-- <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
     <project path="packages/apps/FMRadio" name="LightningFastRom/android_packages_apps_FMRadio" remote="LightningFastRom" /> -->
