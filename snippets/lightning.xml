@@ -46,6 +46,10 @@
     <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
     <project path="lineage-sdk" name="android_lineage-sdk" remote="LightningFastRom" />
 
+    <!-- Replace LineageOS PackageInstaller/PermissionController with my fork Mode Dark theme by Nevidimka655-->
+    <remove-project path="packages/apps/PermissionController" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
+
     <!-- Replace LineageOS ThemePicker For my fork with even more icon shapes -->
     <remove-project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="LightningFastRom"/>
