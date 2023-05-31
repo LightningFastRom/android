@@ -6,4 +6,7 @@
     <remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
     <project path="packages/apps/Seedvault" name="LineageOS-Revived/android_packages_apps_Seedvault" remote="github" />
 
+    <remove-project path="packages/apps/PermissionController" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/apps/PermissionController" name="LineageOS-Revived/android_packages_apps_PackageInstaller" remote="github" />
+    
 </manifest>
