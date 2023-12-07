@@ -2,7 +2,4 @@
 <manifest>
     <remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
     <project path="packages/apps/Seedvault" name="LineageOS-Revived/android_packages_apps_Seedvault" remote="github" />
-    
-    <remove-project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-    <project path="packages/apps/Bluetooth" name="LineageOS-Revived/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" />
 </manifest>
